@@ -18,9 +18,9 @@ setup(
         'tqdm~=4.67.1',
         'cachetools~=5.5.0',
         'anthropic~=0.40.0',
-        'google-cloud-aiplatform~=1.74.0',
+        'google-cloud-aiplatform~=1.133.0',
         'openai~=1.57.2',
-        'python-dotenv~=1.0.1',
+        'python-dotenv~=1.2.2',
         'xgboost~=2.1.3',
     ],
     entry_points={
@@ -33,5 +33,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.9',
+    python_requires='>=3.10',
 )
