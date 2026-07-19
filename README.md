@@ -19,8 +19,8 @@ The final prediction is determined via majority voting across all constituent tr
 **3. Results**
 Both models were trained and evaluated on the heart_h dataset. The classification performance metrics are summarized in Table 1 below.
 
-**Table 1: Classification Performance 
-**ModelAccuracy**  **F1 Score**.
+**Table 1: Classification Performance**** 
+**Model                    Accuracy F1 Score**.
 **Decision Tree (Baseline)	50.00%	29.00%
 Random Forest (Alternative)	81.36%	81.01%**
 As shown in Table 1, the baseline Decision Tree performed poorly, exhibiting an accuracy of 50.00%—equivalent to random chance in binary classification—and a low F1 Score of 29.00%, which indicates a high rate of false negatives or false positives. In contrast, the Random Forest model demonstrated a substantial improvement, achieving an accuracy of 81.36% and an F1 Score of 81.01%. The balanced F1 score indicates that the ensemble approach handles class imbalances effectively, resulting in stable precision and recall.
